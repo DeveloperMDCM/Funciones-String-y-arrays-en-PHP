@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#histograma
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 80vh;
+    letter-spacing: 10px;
+  transform: rotate(-90deg);
+}
+
+.Ejercicio2, .Ejercicio3, .Ejercicio4 ,.Ejercicio6 , .Ejercicio8
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
+}
+
+
+
+/* Listas ejercicio 8 */
+p .listas 
+{
+    color: blue;
+}
